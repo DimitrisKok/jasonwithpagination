@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+    <h2>Append to DOM from JSON with pagination.</h2>
+    <!--Adapted and enhanced code from http://jsfiddle.net/Lzp0dw83/ -->
+    <div class="form-group">
+        <button id="my_btn2" type="button">Hide</button>
+        <a href="javascript:firstPage()" id="btn_first">First</a>
+        <a href="javascript:prevPage()" id="btn_prev">Prev</a>
+        Page: <span id="page"> </span>
+        <a href="javascript:nextPage()" id="btn_next">Next</a>
+        <a href="javascript:lastPage()" id="btn_last">Last</a>
+        <input id="recordsppage" type="text" class="form-control" placeholder="Records per page">
+        <p id="posts"></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
